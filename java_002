@@ -1,1 +1,67 @@
-# MY-STUDY
+# MY-STUDY  java_002/
+    ├── README.md  
+- 클래스와 객체의 정의
+클래스: 추상화 과정을 통해 객체의 특성(데이터와 기능)을 정의해 놓은 '설계도' 혹은 '틀'
+객체,인스턴스: 설계도를 바탕으로 메모리에 실제로 할당된 결과물
+
+ - 클래스 구성 요소
+1. 필드 (Field) / 멤버 변수
+ 역할: 객체의 상태나 데이터를 저장하는 곳
+ 설명: 클래스 내부에 선언되며, 객체가 살아있는 동안 그 값을 유지
+
+2. 메서드 (Method)
+ 역할: 객체의 동작이나 행위를 정의하는 명령어들의 집합
+ 설명: 필드에 저장된 데이터를 사용해 특정 기능을 수행
+
+3. 생성자 (Constructor)
+ 역할: 객체가 처음 만들어질 때(인스턴스화될 때) 호출되어 객체를 초기화하는 특수한 메서드
+ 설명: 클래스 이름과 완전히 똑같은 이름을 가지며, 반환 타입(void, int 등)이 없다. 주로 필드 값을 처음 세팅할 때 사용
+
+4. 이너 클래스 (Inner Class) / 내부 클래스
+ 역할: 클래스 내부에 또 다른 클래스를 선언하는 것
+ 설명: 두 클래스가 서로 긴밀한 관계를 가지고 있을 때 사용하며, 외부에 클래스를 따로 만드는 것보다 캡슐화를 높이고 코드 관리를 쉽게 만들어 준다.
+
+
+SPA.java
+// 매장의 4대 근무 역할
+public enum Assignment {
+    FLOOR,    // 플로어 관리 (고객 응대, 매대 정리)
+    CASHIER,  // 캐셔 관리 (결제, 포스 정산)
+    STOCK,    // 스탁 관리 (재고 입출고, 창고 정리)
+    OMNI      // 옴니 관리 (온라인 주문 픽업, 패킹, 택배)
+}
+
+public enum Shift {
+    OPEN,     // 오픈 조
+    CLOSE     // 마감 조
+}
+
+
+=>
+public class StoreApplication {
+    public static void main(String[] args) {
+        StoreManager manager = new StoreManager();
+
+        // ☀️ 오픈 조 출근 (3명) - 인원이 적으므로 멀티태스킹 체제
+        manager.clockIn(new TeamMember("ㅈㄱㅈ", Shift.OPEN, Assignment.CASHIER));
+        manager.clockIn(new TeamMember("ㅂㅇㅇ", Shift.OPEN, Assignment.FLOOR));
+        manager.clockIn(new TeamMember("ㄱㅇㄱ", Shift.OPEN, Assignment.STOCK)); // 옴니는 마감조가 집중 처리하거나 오픈조가 병행
+
+        // 🌙 마감 조 출근 (8명) - 인원이 많으므로 파트별 집중 배치
+        manager.clockIn(new TeamMember("ㅊㄷㅇ", Shift.CLOSE, Assignment.CASHIER));
+        manager.clockIn(new TeamMember("ㅈㅇㄹ", Shift.CLOSE, Assignment.CASHIER)); // 캐셔 2명
+        
+        manager.clockIn(new TeamMember("ㄱㅇㄱ", Shift.CLOSE, Assignment.FLOOR));
+        manager.clockIn(new TeamMember("ㅇㅅㄹ", Shift.CLOSE, Assignment.FLOOR));
+        manager.clockIn(new TeamMember("ㅇㅇㄴ", Shift.CLOSE, Assignment.FLOOR));   // 플로어 3명
+        
+        manager.clockIn(new TeamMember("ㄱㅎㅈ", Shift.CLOSE, Assignment.STOCK));
+        manager.clockIn(new TeamMember("ㄱㄷㅎ", Shift.CLOSE, Assignment.STOCK));   // 스탁 2명
+        
+        manager.clockIn(new TeamMember("ㅊㅎㅈ", Shift.CLOSE, Assignment.OMNI));    // 옴니 1명
+
+        // 매장 시뮬레이션 가동
+        manager.runOpenShift();
+        manager.runCloseShift();
+    }
+}
