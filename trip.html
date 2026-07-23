@@ -4,64 +4,425 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>내 페이지</title>
-  <script src=""></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+ 
   <link rel="stylesheet" href="./style2.css">
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
       <!-- 이름 · 한 줄 소개 · 메뉴 -->
-       <a href="#" class="logo">IAN'S RECOMMEND TRAVEL DESTINATION</a><br>
 
+      <div class="header-util">
+        <nav class="category-nav">
+        <a href="#">교토 카페</a>
+        <a href="#">또간집</a>
+        <a href="#">추천명소</a>
+        <a href="#">대외비</a>
+        <a href="#">온천</a>
+        <a href="#">호텔</a>
+        </nav>
+
+        <div class="main-title-banner">
+            <h2>IAN'S RECOMMEND TRAVEL DESTINATION</h2>
+        </div>
       
-            <img src="C:\Users\user\Desktop\KakaoTalk_20260722_183017076.jpg">
-       
-
     </header>
+
+
+
 
     <main class="main">
       <section class="content">
-        <!-- 본문: 소개 · 목록 · 카드 -->
+        <!-- 본문: 소개 · 목록 · 교토 카페 카드 -->
          <div class="banner">
-            <h4>RECOMMEND PLACE</h4>
+            <p2>Kyoto kitsaten</p2>
          </div>
-         
+
          <div class="cards">
-
            <article class="card">
-            <div class="card-image-wrap">
-                    <img src=""alt="" class="card-img">
-                    <button class="icon-btn heart-btn" aria-label="Favorite">
-                    <svg viewbox="0 0 24 24"></svg>
-                    <path fill="none" stroke="currentColor" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                    </button>
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Sibasi</h3>
+                    <h4 class="card-address"><p>kyoto 606-8335 76-16</p></h4>
                     </div>
 
-                    <div class="card-body">
-                    <h3>장소이름</h3>
-                    <h4><p>주소</p></h4>
-                    </div>
-                    
                     <div class="card-footer">
-                    <span class="result">추천이유</span>
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kotoro Coffee</h3>
+                    <h4 class="card-address"><p>kyoto 602-0846 301</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">jazz spot YAMATOYA</h3>
+                    <h4 class="card-address"><p>kyoto 606-8392 25</p></h4>
+                    </div>
+
+                    <div class="card-footer">
                     <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
                     </div>
                 </div>
-
             </article>
-
-         </div>
+        </div>       
       </section>
 
 
 
-      <aside class="side">
-        <!-- 사이드: 연락처 · 링크 -->
+       <!-- 본문: 소개 · 목록 · 또간집 카드 -->
+         <div class="banner">
+            <p2>Again Place</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Togawa Sakae</h3>
+                    <h4 class="card-address"><p>Aichi 460-0008 <br>3-28-119</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kiyomizu Okabeya</h3>
+                    <h4 class="card-address"><p>kyoto 605-0862 2-239</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kagurazaka Saryo</h3>
+                    <h4 class="card-address"><p>Tokyo 150-6114 <br>2-24-12, 14F</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+
+       <!-- 본문: 소개 · 목록 · 추천 명소 카드 -->
+         <div class="banner">
+            <p2>Recommend Famous Spot</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+
+                    <div class="card-body">
+
+                    <h3 class="card-title">Ohorikoen</h3>
+                    <h4 class="card-address"><p>Fukuoka 810-0051 1</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+
+                <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+
+                     <h3 class="card-title">Ginkakuji</h3>
+                    <h4 class="card-address"><p>kyoto 606-8402 2</p></h4>
+                    </div>
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">American Village</h3>
+                    <h4 class="card-address"><p>Okinawa 904-0115</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+        
+        </div>       
+      </section>
+
+       <!-- 본문: 소개 · 목록 · 작은 추천 장소 카드 -->
+         <div class="banner">
+            <p2>Small Secret Spot</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Araha Beach</h3>
+                    <h4 class="card-address"><p>Okinawa 904-0116<br> 2-16-2</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nyankodo Bookstores</h3>
+                    <h4 class="card-address"><p>Tokyo 101-0051 2-2-2</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kamogawa <br>Delta</h3>
+                    <h4 class="card-address"><p>kyoto 606-0801</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+       <!-- 본문: 소개 · 목록 · 온천 카드 -->
+         <div class="banner">
+            <p2>Onsen</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nobehanoyu Tsuruhashi</h3>
+                    <h4 class="card-address"><p>Osaka 537-0023 <br>3-13-41</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nakagawa Seiryu Onsen</h3>
+                    <h4 class="card-address"><p>Fukuoka 811-1236 326</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Tenzan no Yu</h3>
+                    <h4 class="card-address"><p>kyoto 616-8315 7, 55-4</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+       <!-- 본문: 소개 · 목록 · 호텔 카드 -->
+         <div class="banner">
+            <p2>Hotel</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Hotel Alacoju</h3>
+                    <h4 class="card-address"><p>Okinawa 901-2134<br> 512-55</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Princess Garden Hotel</h3>
+                    <h4 class="card-address"><p>Aichi 460-0008 3-13-31</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Hotel Keihan Hachijoguchi</h3>
+                    <h4 class="card-address"><p>kyoto 601-8011 5-1</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+
+
+
+<!-- 사이드: 연락처 · 링크 --> 
+          <h4 class="side-text">recommend destination ptcture</h4>
+      <aside class="side"></aside>
+         <img src="C:\Users\user\Desktop\japan tr rec.png" alt="일본추천지" width="300"></img>
+
+         <!--<div class="quick">
+            <h3>search</h3>
+            <button class="quick">search</button>
+         </div>-->
+
       </aside>
     </main>
 
+
+
+
     <footer class="footer">
       <!-- 연락처 · 저작권 -->
+      <div>
+        <p>
+           "한국에 체류하는 수준이다." 라는 말을 들을 정도로 일본 여행을 좋아했습니다.<br>
+           일본 여행을 가시게 된다면 이 장소들 중 한 곳이라도 가보시길 바라겠습니다.<br>
+           저의 5년간의 순간이 또 다른 누군가에게 좋은 추억이 되었으면 좋겠습니다.<br>
+           ぜひ試してみてください！
+        </p>
+      </div>
+        
+       <div class="copy">
+            <P>Copyright © 2021-2026 IAN's Trip Information All Right Reserved</P>
+
+         </div>
+      
     </footer>
   </div>
 </body>
