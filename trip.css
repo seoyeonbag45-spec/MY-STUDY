@@ -1,0 +1,213 @@
+/* 공통 리셋 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+/* 폭 가두기 + 가운데 정렬 */
+.wrapper { width: auto; max-width: auto; margin: 0 auto; padding:auto; }
+header{
+    background-color: antiquewhite;
+    color:rgb(48, 100, 48);
+    text-align: center;
+    padding: 32px 48px;
+    gap:40px;
+    /*height: 60px;*/
+    
+}
+.category-nav{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    color:#87c5de;
+    
+}
+
+.banner{
+    color:rgb(27, 58, 27);
+    gap:15px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    background-color: antiquewhite;
+    padding: 10px 15px;
+    margin:20px auto;
+    border: 1px solid antiquewhite;
+    width: fit-content;
+    align-items: center;
+    font-size: bold;
+    font-weight: 400px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(minmax(3, 1fr));
+    gap: 20px;
+    align-items: stretch;
+}
+.card {
+  width: 200px;                 
+  background-color: #ffffff;   
+  border-radius: 20px;          
+  overflow: hidden;            
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+   transform: translateY(-5px);
+ }
+
+.card-image {
+           
+  width: 90%;
+  height: 150px; 
+  object-fit: cover;                
+}
+.card-image img {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;  
+}
+.heart-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: rgb(6, 23, 12);
+  font-size: 18px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);  
+}
+.card-body {
+  padding: 20px;                
+}
+.card-title {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #031007;
+}
+.card-address {
+  margin: 0 0 20px →
+  0;
+  font-size: 14px;
+  color: #666;                  
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+.arrow-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #011105;
+  color: #fffdf5;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside > * {   
+    margin-top: 20px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.side-text{
+    background-color: antiquewhite;
+    color: #07230f;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid antiquewhite;
+    background-position: right;
+    display: block;
+    margin-left: auto;
+    width: fit-content;
+    text-align: right;
+}
+
+.side{
+    text-align: right;
+    background-image: url('C:\Users\user\Desktop\japan tr rec.png');
+    background-size: 200px;
+    background-position: right;
+    text-align: right;
+    margin-left: auto;
+    display: block;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+
+
+footer{
+    background-color: rgb(38, 83, 38);
+    color:rgb(236, 223, 207);
+    display:flex;
+    gap:25px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer.copy{
+    margin-top: 12px;
+    color:rgb(236, 223, 207);
+    text-align: center;
+    font-size: small;
+}
