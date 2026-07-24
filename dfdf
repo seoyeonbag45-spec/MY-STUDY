@@ -1,0 +1,668 @@
+html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>내 페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <!-- 이름 · 한 줄 소개 · 메뉴 -->
+
+      <div class="header-util">
+        <nav class="category-nav">
+        <a href="#">교토 카페</a>
+        <a href="#">또간집</a>
+        <a href="#">추천명소</a>
+        <a href="#">대외비</a>
+        <a href="#">온천</a>
+        <a href="#">호텔</a>
+        </nav>
+
+        <div class="main-title-banner">
+            <h2>IAN'S RECOMMEND TRAVEL DESTINATION</h2>
+        </div>
+      
+    </header>
+
+
+
+
+    <main class="main">
+      <section class="content">
+        <!-- 본문: 소개 · 목록 · 교토 카페 카드 -->
+         <div class="banner">
+            <p2>Kyoto kitsaten</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <button class="heart-btn">♡</button>
+                    <img src="C:\Users\user1\Desktop\sibasi.jpg"alt="추천장소사진"width:30></div>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Sibasi</h3>
+                    <h4 class="card-address"><p>kyoto 606-8335 76-16</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src="C:\Users\user1\Desktop\img1.png.jpng"alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kotoro Coffee</h3>
+                    <h4 class="card-address"><p>kyoto 602-0846 301</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">jazz spot YAMATOYA</h3>
+                    <h4 class="card-address"><p>kyoto 606-8392 25</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+
+       <!-- 본문: 소개 · 목록 · 또간집 카드 -->
+         <div class="banner">
+            <p2>Again Place</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Togawa Sakae</h3>
+                    <h4 class="card-address"><p>Aichi 460-0008 <br>3-28-119</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kiyomizu Okabeya</h3>
+                    <h4 class="card-address"><p>kyoto 605-0862 2-239</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kagurazaka Saryo</h3>
+                    <h4 class="card-address"><p>Tokyo 150-6114 <br>2-24-12, 14F</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+
+       <!-- 본문: 소개 · 목록 · 추천 명소 카드 -->
+         <div class="banner">
+            <p2>Recommend Famous Spot</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+
+                    <div class="card-body">
+
+                    <h3 class="card-title">Ohorikoen</h3>
+                    <h4 class="card-address"><p>Fukuoka 810-0051 1</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+
+                <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+
+                     <h3 class="card-title">Ginkakuji</h3>
+                    <h4 class="card-address"><p>kyoto 606-8402 2</p></h4>
+                    </div>
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">American Village</h3>
+                    <h4 class="card-address"><p>Okinawa 904-0115</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+        
+        </div>       
+      </section>
+
+       <!-- 본문: 소개 · 목록 · 작은 추천 장소 카드 -->
+         <div class="banner">
+            <p2>Small Secret Spot</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Araha Beach</h3>
+                    <h4 class="card-address"><p>Okinawa 904-0116<br> 2-16-2</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nyankodo Bookstores</h3>
+                    <h4 class="card-address"><p>Tokyo 101-0051 2-2-2</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Kamogawa <br>Delta</h3>
+                    <h4 class="card-address"><p>kyoto 606-0801</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+       <!-- 본문: 소개 · 목록 · 온천 카드 -->
+         <div class="banner">
+            <p2>Onsen</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nobehanoyu Tsuruhashi</h3>
+                    <h4 class="card-address"><p>Osaka 537-0023 <br>3-13-41</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Nakagawa Seiryu Onsen</h3>
+                    <h4 class="card-address"><p>Fukuoka 811-1236 326</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Tenzan no Yu</h3>
+                    <h4 class="card-address"><p>kyoto 616-8315 7, 55-4</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+       <!-- 본문: 소개 · 목록 · 호텔 카드 -->
+         <div class="banner">
+            <p2>Hotel</p2>
+         </div>
+
+         <div class="cards">
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Hotel Alacoju</h3>
+                    <h4 class="card-address"><p>Okinawa 901-2134<br> 512-55</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Princess Garden Hotel</h3>
+                    <h4 class="card-address"><p>Aichi 460-0008 3-13-31</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+            </article>
+           
+           <article class="card">
+            <div class="card-image">
+                    <img src=""alt="추천장소사진">
+                    <button class="heart-btn">♡</button>
+
+                    </div>
+                    <div class="card-body">
+                    <h3 class="card-title">Hotel Keihan Hachijoguchi</h3>
+                    <h4 class="card-address"><p>kyoto 601-8011 5-1</p></h4>
+                    </div>
+
+                    <div class="card-footer">
+                    <button class="arrow-btn" aria-label="자세히 보기">&rarr;</button>
+                    </div>
+                </div>
+            </article>
+        </div>       
+      </section>
+
+
+
+
+
+<!-- 사이드: 연락처 · 링크 --> 
+          <h4 class="side-text">recommend destination ptcture</h4>
+      <aside class="side"></aside>
+         <img src="C:\Users\user\Desktop\japan tr rec.png" alt="일본추천지" width="300"></img>
+
+         <!--<div class="quick">
+            <h3>search</h3>
+            <button class="quick">search</button>
+         </div>-->
+
+      </aside>
+    </main>
+
+
+
+
+    <footer class="footer">
+      <!-- 연락처 · 저작권 -->
+      <div>
+        <p>
+           "한국에 체류하는 수준이다." 라는 말을 들을 정도로 일본 여행을 좋아했습니다.<br>
+           일본 여행을 가시게 된다면 이 장소들 중 한 곳이라도 가보시길 바라겠습니다.<br>
+           저의 5년간의 순간이 또 다른 누군가에게 좋은 추억이 되었으면 좋겠습니다.<br>
+           ぜひ試してみてください！
+        </p>
+      </div>
+        
+       <div class="copy">
+            <P>Copyright © 2021-2026 IAN's Trip Information All Right Reserved</P>
+
+         </div>
+      
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+css
+
+
+/* 공통 리셋 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+/* 폭 가두기 + 가운데 정렬 */
+.wrapper { width: auto; max-width: auto; margin: 0 auto; padding:auto; }
+header{
+    background-color: antiquewhite;
+    color:rgb(48, 100, 48);
+    text-align: center;
+    padding: 32px 48px;
+    gap:40px;
+    /*height: 60px;*/
+}
+ 
+    
+.category-nav{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    color:#87c5de;
+    border: 1px solid #ffffff;
+    border-radius: 50;
+    height: 10px;
+    margin: 20px;
+    padding: 15px;
+
+    
+}
+
+.banner{
+    color:rgb(27, 58, 27);
+    gap:15px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    background-color: antiquewhite;
+    padding: 10px 15px;
+    margin:20px auto;
+    border: 1px solid antiquewhite;
+    width: fit-content;
+    align-items: center;
+    font-size: bold;
+    font-weight: 400px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(minmax(3, 1fr));
+    gap: 50px;
+    align-items: stretch;
+}
+.card {
+  width: 200px;                 
+  background-color: #ffffff;   
+  border-radius: 20px;          
+  overflow: hidden;            
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+   transform: translateY(-5px);
+ }
+
+.card-image {
+           
+  width: 90%;
+  height: 150px; 
+  object-fit: cover;    
+  color-interpolation-filters: sRGB;
+
+   /*background-image: url('C:\Users\user\Desktop\japan tr rec.png');
+    background-size: 50px;*/
+              
+}
+.card-image img {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;  
+}
+.heart-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: rgb(6, 23, 12);
+  font-size: 18px;
+  cursor: pointer;
+  backdrop-filter: blur(5px);  
+}
+.card-body {
+  padding: 20px;                
+}
+.card-title {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #031007;
+}
+.card-address {
+  margin: 0 0 20px →
+  0;
+  font-size: 14px;
+  color: #666;                  
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+.arrow-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #011105;
+  color: #fffdf5;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside > * {   
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.side-text{
+    background-color: antiquewhite;
+    color: #07230f;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid antiquewhite;
+    background-position: right;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.side{
+    text-align: right;
+    background-image: url('C:\Users\user\Desktop\japan tr rec.png');
+    background-size: 200px;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+
+
+footer{
+    background-color: rgb(38, 83, 38);
+    color:rgb(236, 223, 207);
+    display:flex;
+    gap:25px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer.copy{
+    margin-top: 12px;
+    color:rgb(236, 223, 207);
+    text-align: center;
+    font-size: small;
+}
+
+
+
+
