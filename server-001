@@ -1,8 +1,15 @@
 - WS 와 WAS의 차이점
-WS (WEB SERVER) - HTML,CSS,JAVASCRIPT
+WS (WEB SERVER) - HTML,CSS,JAVASCRIPT,이미지
+-웹 서버는 이미 만들어져 있는 파일을 사용자에게 전달하는 역할
+- "정적" 콘텐츠 제공
 
 WAS(WEB APPLICATION SERVER) - JSP,SERVLET, SPRING
+-WAS는 프로그램을 실행해서 결과를 만들어주는 서버
+- "동적" 콘텐츠 제공, DB와 연동
 
+* 차이점
+ws - 이미 있는 파일을 전달
+was - 프로그램을 실행해서 새로운 결과를 생성 
 
 - Spring 주요 특징 (DI, IoC, POJO, AOP)
 Spring - JAVA 자바 기반의 엔터프라이즈 애플리케이션을 쉽게 개발할 수 있도록 지원하는 프레임워크
